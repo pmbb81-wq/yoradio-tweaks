@@ -49,7 +49,10 @@ https://pl.aliexpress.com/item/1005007996520043.html
 
 2. Zawsze sprawdz swoj odbiornik jakie ma piny zeby go nie uszkodzic podlaczajac np 5v do sygnalu.
 
-3. Staraj sie zamontowac odbiornik tak aby pilot mial jak najlepszy dostep do niego. 
+3. Staraj sie zamontowac odbiornik tak aby pilot mial jak najlepszy dostep do niego.
+
+4. ![irpins](https://github.com/user-attachments/assets/80eec63f-f82d-4c9e-8fed-ea8cebab5429)
+
 
    
 
