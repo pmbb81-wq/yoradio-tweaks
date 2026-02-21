@@ -21,30 +21,42 @@ Mamy trzy opcje.
 - [x] Ograniczenia
 
 W wyzwalaczu klikamy znaczek plusa +
+![md1](https://github.com/user-attachments/assets/6d9e067c-8d78-4650-8b6d-9688cacf9730)
 
 Wybieramy Dzialanie uzytkownika
+![md2](https://github.com/user-attachments/assets/49a20c98-e469-4918-a4c4-96d7067fa06b)
 
 Wybieramy przycisk glosnosci
+![md3](https://github.com/user-attachments/assets/5c1dff6a-c617-479a-a811-ca874b5b688c)
 
 Wybieramy opcje Uzywac uslugi ulatwienia dostepu
+![md4](https://github.com/user-attachments/assets/39828ab5-ae72-4d26-9a05-8e4f88b65fc3)
 
 Wybieramy Do gory
+![md5](https://github.com/user-attachments/assets/cfa5e70d-9f96-4bad-ad22-51b3e593433a)
 
 Wybieramy Zachowaj poprzednie ustawienia glosnosci
+![md6](https://github.com/user-attachments/assets/c79c23d2-8262-44f7-bfff-dd711661fb8e)
 
 
 Tak to wyglada:
--fotka tutaj-
+![md7](https://github.com/user-attachments/assets/f3844fcf-1f9d-4d23-a506-772dc274bbfa)
+
 
 Teraz w Akcje klikamy znak plusa +
+![md8](https://github.com/user-attachments/assets/1f6ff173-19d0-439c-9dde-25bff3ee256d)
 
 Wybieramy interakcje internetowe 
+![md9](https://github.com/user-attachments/assets/5684607c-785d-44ce-93b6-c1ba67d19b74)
 
 Wybieramy Zadanie HTTP 
+![md10](https://github.com/user-attachments/assets/ba549654-0cd1-4696-8170-a720688c1ec8)
 
 W Metoda zadania ustawiamy POST 
+![md11](https://github.com/user-attachments/assets/2e22c5a7-0b12-4486-bb27-8b6c55ec057c)
 
 W adresie URL dla ustawienia glosnosci piszemy tak: 
+![md12](https://github.com/user-attachments/assets/085faedf-5bee-4179-a40d-11985e26de62)
 
 Moj przykladowy ip:
 ```python
@@ -52,8 +64,11 @@ Moj przykladowy ip http://192.168.8.103/?volp
 ```
 
 Odznaczamy Sledz przekierowania.
+![md11](https://github.com/user-attachments/assets/68388fa8-cb94-404d-868e-1cb8ddf1e74b)
 
 Klikamy w gornym prawym rogu [v] ptaszka czyli zapisujemy.
+![md13](https://github.com/user-attachments/assets/0536d817-9a50-440a-8bdd-b42c3e12e487)
+
 Testujemy nasze makro :)
 
 Dla volume down wybieramy volm
@@ -61,79 +76,122 @@ Dla volume down wybieramy volm
 Lista komend z githuba:
 ## POST/GET
 ---
-http://xxx.xxx.xxx.xxx/?command
+http://192.168.xxx.xxx/?command
 ---
 start           : start 
+
 > Dziala jako przycisk PLAY
+
 >  Przyklad: http:192.168.8.103/?start 
 
 stop            : stop
+
 > Dziala jako przycisk STOP
+
 >  Przyklad: http:192.168.8.103/?stop
 
 toggle          : start/stop
+
 > Dziala jako przycisk PLAY<->STOP. Mozna przypisac do jednego klawisza.
+
 >  Przyklad: http:192.168.8.103/?toggle
 
 prev            : previous station
+
 > Poprzednia stacja
+
 >  Przyklad: http:192.168.8.103/?prev 
 
 next            : next station
+
 > Nastepna stacja
+
 >  Przyklad: http:192.168.8.103/?next
 
 volm            : volume down one step
-> Zciszenie o wartosc ustawiona na stronie www.
+
+> Zciszenie o wartosc ustawiona na stronie www. Domyslnie jest 1.
+
 >  Przyklad: http:192.168.8.103/?volm
 
 volp            : volume up one step
-> Podglosnienie o wartosc ustawiona na stronie www
+
+> Podglosnienie o wartosc ustawiona na stronie www. Domyslnie jest 1.
+
 > Przyklad: http:192.168.8.103/?volp
 
+volsteps            : ustawia co ile ma byc zmieniana glosnosc. Np co 5 jednostek lub 10 itp :)
+
+> Ustawienie co ile ma byc zwiekszana glosnosc.
+
+> Przyklad: http:192.168.8.103/?volsteps=10 ```Zapisuje na stronie ta wartosc```
+
 vol=x           : set volume to x (0-254)
+
+>  Przyklad: http:192.168.8.103/?vol=50
+
 > Ustawienie glosnosci na wartosc od 0 do 254. Gdzie 254 to 100% glosnosci.
 
-trebble=x&middle=x&bass=x : equalizer, x from -16 to 16 (three parameters together)
+trebble=x&middle=x&bass=x : equalizer, x from -16 to 16 (trzy parametry razem)
+
 > Ustawienia equalizera od -16 do 16. Gdzie 0 to srodek. Chcemy wiecej basu? Ustawiamy np 16 :)
+
 >  Przyklad: http:192.168.8.103/?trebble=0&middle=0&bass=16
 
 ballance=x      : balance, x from -16 to 16
+
 > Ustawienie balansu. Zero to srodek czyli dwa glosniki graja tak samo.
+
 >  Przyklad: http:192.168.8.103/?ballance=16
 
 playstation=x
+
 > Odtwarza stacje x. Np 5 itp. Zalezy ile stacji mamy w playliscie.
-> trebble=x&middle=x&bass=x
+
 > Przyklad: http:192.168.8.103/?playstation=8
 
 play=x          : start playback of station number x
+
 > Odtwarza stacje x. Np 5 czy tam 10 :)
+
 > Przyklad: http:192.168.8.103/?play=1 (pierwsza stacja z playlisty)
 
 dspon=x         : display on/off, x=0 - off, x=1 - on
+
 > Wlacza lub wylacza ekran naszego radyjka.
+
 > Przyklad: http:192.168.8.103/?dspon=0 (Wylaczenie ekranu)
 
-dim=x           : display brightness x=(0-100) (if supported)
+>  Przyklad: http:192.168.8.103/?dspon=1 (Wlaczenie ekranu)
+
+dim=x           : display brightness x=(0-100) (jezeli wspierany)
+
 > Ustawia jasnosc ekranu jezeli wykorzystujemy pin PWM i mamy go zdefiniowanego. Jezeli LCD to obsluguje.
+
 > Przyklad: http:192.168.8.103/?dim=50 (Przyciemnie ekran lcd o 50%)
 
 sleep=x&after=y : sleep for x minutes after y minutes
+
 > Usypia nasze radyjko przez sleep=x po czasie after=y.
+
 > Przyklad: http:192.168.8.103/?sleep=60&after=5
 
 sleep=x         : sleep for x minutes right now
+
 > Usypia nasze radyjko natychmiast
+
 > > Przyklad: http:192.168.8.103/?sleep=60
 
 reset           : reset settings to default
-? Ustawia ustawienia domyslne naszego radyjka
+
+> Ustawia ustawienia domyslne naszego radyjka
+
 > Przyklad: http:192.168.8.103/?reset
-> 
+
 ---
 >                          NIE UDUKOMENTOWANE KOMENDY Z PLIKU COMMANDHANDLER.CPP
 ---
+
 ## 🌐 WebSocket / UI
 1. clearspiffs
 - [ ] Nie testowane jeszcze :)
@@ -160,7 +218,9 @@ Przyklad: ```http://192.168.8.102/?flipscreen=0```
 Przyklad: ```http://192.168.8.102/?flipscreen=1```
 
 5. brightness
-- [x] Regulacja jasnosci ekranu. Info aka lechuuu-st: Dziala tylko na ekranach TFT, na oledach nie. LCD musi miec PIN BL i byc podlaczony i zdefiniowany w myoptions.h Zakres jasnosci odbywa sie od 0 do 255.
+- [x] Regulacja jasnosci ekranu. Info aka lechuuu-st: Dziala tylko na ekranach TFT, na oledach nie. LCD musi miec PIN BL i byc podlaczony i zdefiniowany w myoptions.h
+
+Zakres jasnosci odbywa sie od 0 do 255.
 
 Przyklad: ```http://192.168.8.102/?brightness=127``` 50% jasnosci ekranu.
 
@@ -199,19 +259,19 @@ Przyklad: ```http://192.168.8.102/?showweather=1``` Wlacza pasek pogody.
 10. reboot lub boot
 - [x] Restartuje nasze ESP :)
 
-Przyklad: ```http://192.168.8.102/?reboot=1``` Resetuje nasz ESP.
+Przyklad: ```http://192.168.8.102/?reboot=1``` Resetuje nasze ESP.
 
-Przyklad: ```http://192.168.8.102/?boot=1``` Resetuje nasz ESP.
+Przyklad: ```http://192.168.8.102/?boot=1``` Resetuje nasze ESP.
 
 11. format
 - [ ] Formatuje nasze ESP :) Dla odwaznych xD Ja tego nie testuje xD
 
-Przyklad: ```http://192.168.8.102/?format=1``` Formatuje nasz ESP.
+Przyklad: ```http://192.168.8.102/?format=1``` Formatuje nasze ESP.
 
 12. reset
 - [x] Resetuje nasze ESP :) Przywraca domyslne ustawienia na www. Usywa tez API key od pogody.
 
-Przyklad: ```http://192.168.8.102/?reset=1``` Resetuje nasz ESP.
+Przyklad: ```http://192.168.8.102/?reset=1``` Resetuje nasze ESP.
 
 13. vumeter
 - [x] Wlacza lub wylacza pasek audio VU Meter.
@@ -220,19 +280,12 @@ Przyklad: ```http://192.168.8.102/?vumeter=1``` Wlacza pasek VU.
 
 Przyklad: ```http://192.168.8.102/?vumeter=0``` Wylacza pasek VU.
 
-14. vumeter
-- [x] Wlacza lub wylacza pasek audio VU Meter.
-
-Przyklad: ```http://192.168.8.102/?vumeter=1``` Wlacza pasek VU.
-
-Przyklad: ```http://192.168.8.102/?vumeter=0``` Wylacza pasek VU.
 
 
 
 
 
-
-
+Ponizej wklejone info od Marcina :)
 
 
     # 📋 Komendy obsługiwane w `CommandHandler::exec` (yoRadio)
