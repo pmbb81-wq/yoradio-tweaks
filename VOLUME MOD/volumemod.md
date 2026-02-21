@@ -18,4 +18,7 @@ Ustaw sobie jeszcze w myoptions.h to (usunie to ramkę wokół i pasek lepiej wy
 #define COLOR_VOLBAR_OUT          0,   0,  0
 
 
+![modvolok](https://github.com/user-attachments/assets/0f47397e-e732-45aa-b9b0-673983fb30be)
+
+
 
