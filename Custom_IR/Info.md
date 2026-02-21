@@ -103,9 +103,47 @@ PSRAM Size: 8388608 | Free PSRAM: 7402024
 Sketch MD5: 4c52befaee51a5d79eb121460e08cb7c
 ```
 
+11.Teraz kod na zwrocenie informacji o wifi :)
+
+```C++
+if (irResults.value == 0x20242BD) // kolejny przycisk
+
+              {
+              Serial.println("ESP Info...\n");
+              Serial.println("--- Wi-Fi Status ---");
+Serial.printf("SSID: %s\n", WiFi.SSID().c_str());
+Serial.printf("IP: %s\n", WiFi.localIP().toString().c_str());
+Serial.printf("RSSI: %d dBm\n", WiFi.RSSI());               // Siła sygnału (liczba)
+Serial.printf("Gateway: %s\n", WiFi.gatewayIP().toString().c_str()); // Adres bramy (IP)
+Serial.printf("Hostname: %s\n", WiFi.getHostname());        // Nazwa sieciowa (tekst)
+Serial.printf("TX Power: %d dBm\n", WiFi.getTxPower());     // Moc nadawania (liczba)
+Serial.printf("WiFi Mode: %d\n", (int)WiFi.getMode());      // Tryb (STA/AP)
+
+// Funkcje specyficzne dla nowszych rdzeni ESP32 (S3/C3/v3.x):
+#if ESP_ARDUINO_VERSION >= ESP_ARDUINO_VERSION_VAL(3, 0, 0)
+  Serial.printf("Band: %d\n", (int)WiFi.getBand());         // Pasmo (2.4GHz/5GHz)
+#endif
+              
 
 
+              irrecv.resume(); // Przygotowanie na kolejny sygnał
+                return;
+              }
+```
 
+Zostanie zwrocona taka informacja w logu:
+```
+--- Wi-Fi Status ---
+SSID: WLAN1-F31TLH
+SSID: WLAN1-F31TLH
+IP: 192.168.8.102
+RSSI: -34 dBm
+Gateway: 192.168.8.1
+Hostname: esp32s3-88820C
+TX Power: 80 dBm
+WiFi Mode: 1
+Band: 1
+```
 
 
 
