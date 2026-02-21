@@ -146,9 +146,42 @@ Band: 1
 ```
 
 
+12: Kod z komenda wakeup(); Wybudza LCD ze snu :)
+```
+if (irResults.value == 0x20242BD) // kolejny przycisk
 
+              {
+              Serial.println("Display wake up\n");
+              display.wakeup();
+              irrecv.resume(); // Przygotowanie na kolejny sygnał
+              return;
+              }
+```
 
+13: Kod z komenda Deepsleep czyli glebokie uspienie :)
+```
+if (irResults.value == 0x20242BD) // kolejny przycisk
 
+              {
+              Serial.println("Display deepSleep\n");
+              display.deepsleep();
+              irrecv.resume(); // Przygotowanie na kolejny sygnał
+              return;
+              }
+```
+
+14. Kod z Display Lock...zamraza calkowicie ekran LCD. Trzeba wyciagnac zasilanie aby czresetowac :)
+```
+if (irResults.value == 0x20242BD) // kolejny przycisk
+
+              {
+              Serial.println("Display Lock\n");
+              display.lock();
+              irrecv.resume(); // Przygotowanie na kolejny sygnał
+              return;
+              }
+```
+15. 
 
 
 
