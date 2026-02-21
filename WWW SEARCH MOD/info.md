@@ -1,5 +1,5 @@
 ---
-                                     Yoradio (0.9.720) SEARCH RADIO MOD
+                                     📋 Yoradio (0.9.720) SEARCH RADIO MOD
 ---
 
 # 📋 Mod ktory dodaje na stronie www ikonke lupy do wyszukiwania stacji radiowych. Rewelka :)
