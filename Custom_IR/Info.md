@@ -181,7 +181,7 @@ if (irResults.value == 0x20242BD) // kolejny przycisk
               return;
               }
 ```
-15. 
+15. player.sendCommand({PR_STOP, 0});//dziala
 
 
 
