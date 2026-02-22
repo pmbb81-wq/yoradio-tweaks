@@ -16,6 +16,9 @@ INFO: Aby polaczyc ten ekran po SPI trzeba usunac rezystor przy P8080. Nie testo
 
 <img width="712" height="267" alt="obraz" src="https://github.com/user-attachments/assets/92782975-253d-4eb8-909b-452e4c65bcbe" />
 
+<img width="437" height="214" alt="obraz" src="https://github.com/user-attachments/assets/17892bf4-7051-4349-9ab4-295da02a73cc" />
+
+
 
 Chinile produkuja go w 4 kolorach. Z czego kolor bialy potrafi byc tanszy o 50%. Jest on czesto dodawany do Multirabatow. Z wersja V-Toma 0.8.3 wyglada zajefajnie. 
 
@@ -112,6 +115,9 @@ Teraz ponizej moj konfig z wykorzystaniem ESP32-S3 N16R8 czyli z pamiecia flash 
 Mala sciaga PINOUT od Jacka ;)
 
 ![esp sciaga pinout](https://github.com/user-attachments/assets/6a862563-811c-444f-b9f7-e4bae5210f8a)
+
+![ssd1322 pinout 2](https://github.com/user-attachments/assets/989302fc-1f9c-43a4-b652-7077a19f8ec2)
+
 
 
 ```
