@@ -18,6 +18,8 @@ INFO: Aby polaczyc ten ekran po SPI trzeba usunac rezystor przy P8080. Nie testo
 
 <img width="437" height="214" alt="obraz" src="https://github.com/user-attachments/assets/17892bf4-7051-4349-9ab4-295da02a73cc" />
 
+![ssd1322 pinout 2](https://github.com/user-attachments/assets/abf31813-b9f4-4834-a641-c1d46d145df5)
+
 
 
 Chinile produkuja go w 4 kolorach. Z czego kolor bialy potrafi byc tanszy o 50%. Jest on czesto dodawany do Multirabatow. Z wersja V-Toma 0.8.3 wyglada zajefajnie. 
@@ -116,7 +118,8 @@ Mala sciaga PINOUT od Jacka ;)
 
 ![esp sciaga pinout](https://github.com/user-attachments/assets/6a862563-811c-444f-b9f7-e4bae5210f8a)
 
-![ssd1322 pinout 2](https://github.com/user-attachments/assets/989302fc-1f9c-43a4-b652-7077a19f8ec2)
+
+
 
 
 
