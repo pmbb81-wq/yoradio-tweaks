@@ -33,8 +33,8 @@ framework = arduino
 board_build.flash_mode = qio
 board_build.psram_type = opi
 board_build.memory_type = qio_opi      ; 
-board_upload.maximum_size = 8388608
-board_upload.flash_size = 8MB                 ; 
+board_upload.maximum_size = 8388608    ; 4MB = 4194304 16MB = 16777216 32MB = 33554432
+board_upload.flash_size = 8MB                 ; 4,8,16,32 
 board_build.extra_flags = -DBOARD_HAS_PSRAM     ; 
 
 
@@ -57,7 +57,7 @@ lib_deps =
 ; Monitorowanie portu USB
 monitor_speed = 115200
 upload_speed = 921600
-upload_port = COM17
+upload_port = COM17  ;nasz port com do ktorego podpielismy ESP.
 monitor_rts = 0
 monitor_dtr = 0
 ```
@@ -73,6 +73,29 @@ app1,     app,  ota_1,   0x340000,0x330000,
 spiffs,   data, spiffs,  0x670000,0x180000,
 coredump, data, coredump,0x7F0000,0x10000,
 ```
+
+ESP32-S3-N4R2
+```CSV
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,     0x9000,   0x5000,
+otadata,  data, ota,     0xe000,   0x2000,
+app0,     app,  ota_0,   0x10000,  0x190000,
+app1,     app,  ota_1,   0x1A0000, 0x190000,
+spiffs,   data, spiffs,  0x330000, 0xC0000,
+coredump, data, coredump,0x3F0000, 0x10000,
+```
+
+ESP32-S3-N8R4
+```CSV
+# Name,   Type, SubType, Offset,   Size,     Flags
+nvs,      data, nvs,     0x9000,   0x5000,
+otadata,  data, ota,     0xe000,   0x2000,
+app0,     app,  ota_0,   0x10000,  0x330000,
+app1,     app,  ota_1,   0x340000, 0x330000,
+spiffs,   data, spiffs,  0x670000, 0x180000,
+coredump, data, coredump,0x7F0000, 0x10000,
+```
+
 Rodzaje i przyklady partycji:
 
 board_build.partitions = min_spiffs.csv 
