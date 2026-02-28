@@ -104,16 +104,22 @@ board_build.partitions = huge_app.csv
 
 board_build.partitions = default.csv
 
----
-MYOPTIONS.h
----
-#define DEF_SPI_FREQ 80000000UL  
+
+
+<h1 align="center">📋MYOPTIONS.h</h1>
 
 Ustawia predkosc odswierzania LCD
+```C++
+#defne DEF_SPI_FREQ 80000000UL
+```
 
-#define I2CFREQ_HZ 8000000UL  
+50kHz odswierzanie lcd dla i2c
 
-50kHz odswierzanie lcd
+```C++
+#define I2CFREQ_HZ 8000000UL
+```
+
+
 
 
 
