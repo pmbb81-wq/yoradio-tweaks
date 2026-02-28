@@ -280,8 +280,38 @@ Przyklad: ```http://192.168.8.102/?vumeter=1``` Wlacza pasek VU.
 
 Przyklad: ```http://192.168.8.102/?vumeter=0``` Wylacza pasek VU.
 
+# 📋 AKTUALIZACJA DO TOGGLE (NOWOŚĆ!):
+1.Display ON/OFF
+
+2.SCREEN INVERT
+
+3.FLIP SCREN
+
+W koncu ogarnieta w makrodroidzie funkcja przelaczajaca pomiedzy dwoma funkcjami. Tak to wyglada w makrodroid:
+
+![Screenshot_2026-02-28-13-02-54-987_com arlosoft macrodroid](https://github.com/user-attachments/assets/3ec9f8c7-f8da-44a3-bbfc-8b18d51277fe)
 
 
+Zaczniemy od makra Flip Screen czyli obracanie naszym LCD o 180 stopni :) 
+
+Flip Screen dziala u mnie na zasadzie wyzwalacza "Automatyczny obrot zmieniony":
+
+![1772280367457](https://github.com/user-attachments/assets/f7b5574f-9dfa-4474-ae59-19f04d6cce99)
+
+W akcje korzystam z zmiennej Macrodroida "toggle". Dodane sa IF i Else. Tak wyglada konstrukcja w Akcje:
+
+![1000026752](https://github.com/user-attachments/assets/404deb6a-6d15-4144-bc1d-cecc92c5b2f4)
+
+Teraz trzeba w telefonie zrobic gest w dol z gornego ekranu aby rozwinac takie opcje:
+
+![Screenshot 2026-02-28 13-11-06](https://github.com/user-attachments/assets/27f5b14e-1f56-44b4-bc38-3f77a76e1cc2)
+
+Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ekranem naszego yoradyjka.
+
+
+
+
+------
 
 
 
