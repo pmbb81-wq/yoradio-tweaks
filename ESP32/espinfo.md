@@ -104,6 +104,10 @@ board_build.partitions = huge_app.csv
 
 board_build.partitions = default.csv
 
+---
+MYOPTIONS.h
+---
+#define DEF_SPI_FREQ        80000000UL  //Ustawia predkosc odswierzania LCD
 
 
 
