@@ -315,20 +315,10 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
  <img src="http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
-<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com" 
-         alt="Watch the video" 
-         width="240" 
-         height="180" 
-         style="border: 10px solid black; cursor: pointer;">
-  </a>
-</div>
-
-<a href="https://www.youtube.com" target="_blank">Otwórz YouTube w nowej karcie</a>
+[![Video: Anti-Trust-War Machine](Anti-Trust-WarMachine.jpg)](https://www.youtube.com/watch?v=3CM1_Ji6fJ8)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iXYV2qw-knw?rel=0" frameborder="0" allowfullscreen></iframe> 
+
 -----
 
 
