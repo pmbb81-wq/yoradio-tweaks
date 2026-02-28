@@ -309,8 +309,9 @@ Teraz trzeba w telefonie zrobic gest w dol z gornego ekranu aby rozwinac takie o
 Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ekranem naszego yoradyjka.
 
 
-
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=DIyMAdM8BJU" target="_blank">
+ <img src="http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 ------
 
 
