@@ -315,7 +315,7 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
  <img src="http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
-[![Video: Macrodroid i Yoradio](Anti-Trust-WarMachine.jpg)](https://www.youtube.com/watch?v=DIyMAdM8BJU)
+[![Video: Macrodroid i Yoradio](mqdefault.jpg)](https://www.youtube.com/watch?v=DIyMAdM8BJU)
 
 
 
