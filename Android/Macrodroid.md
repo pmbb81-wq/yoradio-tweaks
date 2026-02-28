@@ -317,7 +317,7 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
 
 <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
   <a href="[https://www.youtube.com/watch?v=DIyMAdM8BJU)" target="_blank">
-    <img src="[http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg)" alt="Watch the video" width="240" height="180" border="10" />
+    <img src="[[http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg](https://www.youtube.com/watch?v=DIyMAdM8BJU))" alt="Watch the video" width="240" height="180" border="10" />
   </a>
 </div>
 
