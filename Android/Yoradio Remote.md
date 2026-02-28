@@ -3,6 +3,13 @@
 <h1 align="center">📋Yoradio Remote - Android</h1>
 
 ---
+
+
+
+<p align="center">
+    <img width="200" src="https://github.com/user-attachments/assets/06095b8e-ea5d-489d-af1c-b08174450c57" alt="Yoradio Remote">
+</p>
+
 Nowa wersja aplikacji do yoradio sterujaca naszym radyjkiem przez WI-FI :)
 
 Autor projektu Marcin O. Ma tez swoje konto na githubie.
