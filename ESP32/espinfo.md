@@ -107,9 +107,13 @@ board_build.partitions = default.csv
 ---
 MYOPTIONS.h
 ---
-#define DEF_SPI_FREQ         
+#define DEF_SPI_FREQ 80000000UL  
 
-80000000UL  //Ustawia predkosc odswierzania LCD
+Ustawia predkosc odswierzania LCD
+
+#define I2CFREQ_HZ 8000000UL  
+
+50kHz odswierzanie lcd
 
 
 
