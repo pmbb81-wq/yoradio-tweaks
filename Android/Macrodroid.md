@@ -316,10 +316,11 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
 </a>
 
 <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
-  <a href="[https://www.youtube.com/watch?v=DIyMAdM8BJU)" target="_blank">
-   
+  <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">
+    <img src="http://img.youtube.com" alt="Watch the video" width="240" height="180" border="10" />
   </a>
 </div>
+
 
 -----
 
