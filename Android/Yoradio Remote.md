@@ -36,7 +36,7 @@ Na dole ekranu mamy trzy modyfikowalne przyciski:
 
 ![1000026757](https://github.com/user-attachments/assets/ab9a93e8-485e-436b-8230-27e61b3f32d6)
 
-Po przytrzymaniu na jednym z klawiszy mamy dostep do takich opcji:
+Po przytrzymaniu na jednym z przyciskow mamy dostep do takich opcji:
 
 ![1000026758](https://github.com/user-attachments/assets/c4270961-0759-4414-9127-20c503b89f61)
 
