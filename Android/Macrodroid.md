@@ -315,13 +315,15 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
  <img src="http://img.youtube.com/vi/DIyMAdM8BJU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
-<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh; text-align: center;">
-  <a href="https://www.youtube.com/watch?v=DIyMAdM8BJU" target="_blank" rel="noopener noreferrer" style="display: inline-block;">
-    <img src="https://img.youtube.com" alt="Watch the video" width="240" height="180" style="border: 10px solid black; display: block;">
+<div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com" 
+         alt="Watch the video" 
+         width="240" 
+         height="180" 
+         style="border: 10px solid black; cursor: pointer;">
   </a>
 </div>
-
-https://www.youtube.com/watch?v=DIyMAdM8BJU
 
 -----
 
