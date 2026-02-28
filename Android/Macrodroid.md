@@ -327,6 +327,8 @@ Klikajac ikonke od blokady obracania ekranu, czyli wlacz lub wylacz, obracamy ek
 
 <a href="https://www.youtube.com" target="_blank">Otwórz YouTube w nowej karcie</a>
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iXYV2qw-knw?rel=0" frameborder="0" allowfullscreen></iframe> 
 -----
 
 
