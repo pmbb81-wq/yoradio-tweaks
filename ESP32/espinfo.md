@@ -16,6 +16,25 @@ Ponizej caly artykul o PSRAM :)
 https://www.upesy.com/blogs/tutorials/get-more-ram-on-esp32-with-psram#
 
 ---
+# 📋 ESP32-S3 N16R8 FLASH EXPERIMENT!!!
+
+Postanowilem troche poeksperymentowac i sprawdzic co sie stanie jak zamienie kosc flash 16MB na inna. 
+
+W zakatku mojego pokoju znalazlem rozne kosci SPI przewaznie z plyt glownych od laptopow z czego wieksza czesc to byly kosci albo 8MB lub 4MB,2MB,1MB. Jedna trafila sie 32MB ale w wykonaniu BGA. Trafila sie takze normalna ale tylko 16MB czyli tyle samo co oryginal.
+
+Ponizej screen z rozcietej ESP32-S3 N16R8 z chinczykowa czyli Aliexpresu. Trochew sie rozni z zdjeciem powyzej. Nie mamy tutaj pamieci PSRAM :) 
+
+
+
+
+
+
+
+
+
+---
+
+---
 # 📋 PlatformIO
 ---
 Warto dodac tutaj pare informacji o ustawieniu pod plytke ESP32-S3-N16R8 jak powinna wygladac standardowe ustawienie dla PlatformIO.
