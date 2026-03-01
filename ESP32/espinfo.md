@@ -29,7 +29,7 @@ Odczyt informacji z programu ESP Connect:
 
 <img width="2234" height="1215" alt="winbond espconnectinfo" src="https://github.com/user-attachments/assets/dd3a2f5d-12fd-45cb-bc1f-bd4d9638de70" />
 
-Podsumowujac...musialem wylutowac cala plytke z ESP i wylutowac caly glowny chip ESP32 poniewaz przy tej akcji zdazyl sie incydent i przesunalem chip tak, ze zwarlo sie kilka pinow! Na szczescie sam chip sie nie uszkodzil i po ponownym wlutowaniu wszystko zaczelo dzialac normalnie :) Brakujer mi tylko kosci 32MB aby sprawdzic czy daloby rady uruchomic flash z taka pamiecia :) 
+Podsumowujac...musialem wylutowac cala plytke z ESP i wylutowac caly glowny chip ESP32 poniewaz przy tej akcji zdazyl sie incydent i przesunalem chip tak, ze zwarlo sie kilka pinow! Na szczescie sam chip sie nie uszkodzil i po ponownym wlutowaniu wszystko zaczelo dzialac normalnie :) Brakuje mi tylko kosci 32MB aby sprawdzic czy daloby rady uruchomic flash z taka pamiecia :) 
 
 
 
