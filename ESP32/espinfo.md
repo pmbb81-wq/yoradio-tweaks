@@ -22,7 +22,7 @@ Postanowilem troche poeksperymentowac i sprawdzic co sie stanie jak zamienie kos
 
 W zakatku mojego pokoju znalazlem rozne kosci SPI przewaznie z plyt glownych od laptopow z czego wieksza czesc to byly kosci albo 8MB lub 4MB,2MB,1MB. Jedna trafila sie 32MB ale w wykonaniu BGA. Trafila sie takze normalna ale tylko 16MB czyli tyle samo co oryginal.
 
-Ponizej screen z rozcietej ESP32-S3 N16R8 z chinczykowa czyli Aliexpresu. Troche sie rozni z zdjeciem powyzej. Nie mamy tutaj pamieci PSRAM :) 
+Ponizej screen z rozcietej ESP32-S3 N16R8 z chinczykowa czyli Aliexpresu. Troche sie rozni od zdjecia powyzej,nie?. Nie mamy tutaj pamieci PSRAM :) 
 ![winbond esp32s3](https://github.com/user-attachments/assets/9d479a12-1b04-4d3d-9272-19c6c3bc6ba7)
 
 Odczyt informacji z programu ESP Connect:
