@@ -24,6 +24,9 @@ https://github.com/pmbb81-wq/yoradio-tweaks/blob/main/WWW%20SEARCH%20MOD/info.md
 
 https://github.com/pmbb81-wq/yoradio-tweaks/blob/main/Custom_IR/Info.md
 
+6.Yoradio Remote
+https://github.com/pmbb81-wq/yoradio-tweaks/blob/main/Android/Yoradio%20Remote.md
+
 
 
 
