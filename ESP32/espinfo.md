@@ -31,6 +31,20 @@ Odczyt informacji z programu ESP Connect:
 
 Podsumowujac...musialem wylutowac cala plytke z ESP i wylutowac caly glowny chip ESP32 poniewaz przy tej akcji zdazyl sie incydent i przesunalem chip tak, ze zwarlo sie kilka pinow! Na szczescie sam chip sie nie uszkodzil i po ponownym wlutowaniu wszystko zaczelo dzialac normalnie :) Brakuje mi tylko kosci 32MB aby sprawdzic czy daloby rady uruchomic flash z taka pamiecia :) 
 
+EKSPERYMENT Z ESP32-U z 4MB flash
+<img width="1838" height="1235" alt="Zrzut ekranu 2026-02-04 205751" src="https://github.com/user-attachments/assets/3a6ffb63-7482-4efe-bad8-c7a061bfda97" />
+
+![1000026836](https://github.com/user-attachments/assets/77410182-64a4-46a4-9ded-4d523e3418aa)
+
+Po rozcieciu oslony mamy tylko kosc flash 4MB :)
+![1000026837](https://github.com/user-attachments/assets/fa1611b7-a643-4372-a4bc-793f5bb94eb1)
+
+Wlutowalem kosc 16MB z ESP32-S3 N16R8 i ESP dziala elegancko. Jest wykrywane 16MB flash :)
+
+
+
+
+
 
 
 
